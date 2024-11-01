@@ -1,0 +1,279 @@
+.form_on{
+	display:block !important;
+}
+
+/***************login css start******************/
+.pravel_login_close .pravel_close:before, .pravel_login_close .pravel_close:after {
+     left: 15px !important;
+    top: 0px !important;
+    height: 30px !important;
+    width: 2px !important;
+    background-color: #fff !important;
+    opacity: 0.8 !important;
+}
+.pravel_login_close .pravel_close {
+    right: 24px !important;
+    top: 16px !important;
+    height: 30px !important;
+    width: 30px !important;
+    background: none !important;
+    opacity: 0.8 !important;
+    z-index: 999999;
+}
+
+
+
+.login_bg
+{
+    display: none;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+.login_main {
+    width: 229px;
+    display: block;
+    float: right;
+    height: 100vh;
+	overflow-y: scroll;
+    background: #3913cbcc;
+    background: -moz-linear-gradient(top, #3913cbcc 62%, #190d33 64%);
+    background: -webkit-linear-gradient(top, #3913cbcc 62%,#190d33 64%);
+    background: linear-gradient(to bottom, #3913cbcc 62%,#190d33 64%);
+}
+
+.modal_back_bg_inner
+{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+	width: 100%;
+	max-width:750px;
+}
+.login-form {
+    padding: 0px 22px 0px;
+}
+.input-box input {
+    border-radius: 6px !important;
+    background: #fff;
+    width: 100% !important;
+}
+.input-box p {
+    
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+	margin-top:10px;
+    letter-spacing: 2px;
+}
+.login-info{
+	display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.login-info ul{
+	display: inline-block;
+	text-align: center;
+    margin: 0 auto;
+}
+.login-info li{
+	list-style:none;
+	float:left;
+	margin-right:10px;
+	float:left;
+}
+.login-info a
+{
+    text-align:center;    
+    font-weight: bold;
+    font-size: 14px;
+    margin: 6px 0px;
+    display:block;
+	text-decoration:none !important;
+}
+.donation_main {
+    display: flex;
+}
+
+.login-form-btn button {
+    width: 100% !important;
+    background: #3913CB !important;
+    padding: 12px 0px;
+    color: #fff;
+    font-weight: 600;
+     font-size: 15px;
+}
+.donate-box img {
+    width:30px;
+	margin-bottom: 10px;
+}
+.login-form-btn {
+    padding: 16px 0px;
+}
+
+.login-info p:last-child {
+    border-top: 1px solid #afafaf;
+    padding: 40px 0px;
+    margin-top: 25px;
+}
+.donate-box {
+    background: #190D33;
+    padding: 40px 40px 40px;
+    text-align: center;
+}
+
+.donate-box p
+{
+     font-size: 16px;
+     color: #fff;
+}
+/***************login css end******************/
+
+/***************sign css start******************/
+.modal_back_bg {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100% !important;
+    overflow-y: scroll !important;
+}
+.modal_back_bg.donation_back_bg {
+    background: #190D33;
+}
+.sign_up_main{
+	box-shadow: 1px 2px 8px 5px #f2f2f2;
+}
+.sign_up_bg {
+    max-width: 755px;   
+    margin: 50px auto;    
+    width: 100%;  
+}
+
+.sign-title {
+    background: #5F51FF;
+}
+.sign-title h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 28px 0px;
+}
+.sign-input-box p {
+    font-size: 14px;
+    font-weight: bold;
+    
+    margin: 0px;
+    line-height: 30px;
+}
+.sign-box {
+    padding: 10px 80px 30px;
+}
+.sign-input-box:not(.verification_code) input {
+    width: 100% !important;
+    padding: 14px 10px !important;
+    background: #f1f1f1 !important;
+    margin: 0px !important;
+	height: 42px !important;;
+    
+}
+.sign-form.sign-step01 .sign-input-box:nth-child(-n + 2) {
+    width: calc(50% - 16px);
+    float: left;
+}
+.sign-input-box {
+    margin: 12px 8px;
+}
+.sign-form-btn{
+	padding: 0px 10px;
+}
+.sign-form-number {
+    width: fit-content;
+    float: right;
+    margin-top: 6px;
+}
+.sign-form-bottom
+{
+    padding-top: 25px;
+}
+.sign-form-number ul li {
+    display: inline-block;
+    opacity: 0.3;
+}
+.sign-form-number ul li.active_form_tab {
+    opacity: 1;
+}
+.sign-form-number ul li a {
+    color: #3913cb;
+    font-size: 15px;
+    border: 1px solid #3913cb;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+}
+.sign-form-number ul li a:hover
+{
+    text-decoration:none
+}
+.sign-input-box select {
+    width: 100% !important;
+    padding: 12px 10px !important;
+    background: #190D33 !important;
+    margin: 0px !important;
+    color: #fff;
+    font-weight: 400;
+	height: 42px;
+    
+}
+.pravel_clearfix
+{
+    display: block;
+    clear: both;
+}
+
+
+.show_reg_error_message, .error_pravel{
+	color: red;
+    padding: 10px;
+}
+
+.show_reg_error_message.success, .error_pravel.success{
+	color: green !important;
+    padding: 10px;
+}
+
+.verification_code input{
+	width: 50px !important;
+    float: left;
+    margin-right: 10px !important;
+    height: 50px;
+}
+
+.sign-form-bottom{
+    display: inline-block;
+    width: 100%;  
+
+}
+.field_error{
+	line-height: 14px;
+    font-weight: 400;
+    color: red;
+}
+.input_field_error input{
+	border: 1px solid red!important;
+}
+.input_field_error p{
+	color: red !important;
+}
+
